@@ -144,7 +144,7 @@ namespace Qv2ray::base::config
 
     struct Qv2rayConfig_Network
     {
-        Qv2rayLatencyTestingMethod latencyTestingMethod;
+        Qv2rayLatencyTestingMethod latencyTestingMethod = TCPING;
         enum Qv2rayProxyType : int
         {
             QVPROXY_NONE = 0,
